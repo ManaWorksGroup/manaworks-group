@@ -1,0 +1,16 @@
+.stars {
+  background: url('https://raw.githubusercontent.com/VincentGarreau/particles.js/master/demo/media/starfield.png');
+  background-repeat: repeat;
+  background-size: cover;
+  animation: starScroll 100s linear infinite;
+  opacity: 0.3;
+}
+
+@keyframes starScroll {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 10000px;
+  }
+}
